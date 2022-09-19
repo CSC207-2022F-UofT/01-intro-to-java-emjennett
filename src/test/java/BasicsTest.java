@@ -71,15 +71,15 @@ public class BasicsTest {
     @Test(timeout = 50)
     public void testTask5() {
         int[] arr = {5, 3, 1};
-        assertEquals(Basics.oddSum(arr), 3);
+        assertEquals(Basics.oddSum(arr), 9);
 
         int[] arr2 = {1, 10, 2, 15, 3, 12};
-        assertEquals(Basics.oddSum(arr2), 37);
+        assertEquals(Basics.oddSum(arr2), 19);
 
         int[] arr3 = {1};
-        assertEquals(Basics.oddSum(arr3), 0);
+        assertEquals(Basics.oddSum(arr3), 1);
 
         int[] arr4 = {17, 2};
-        assertEquals(Basics.oddSum(arr4), 2);
+        assertEquals(Basics.oddSum(arr4), 17);
     }
 }

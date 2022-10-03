@@ -124,7 +124,6 @@ public class Basics {
         {
             ret.append(p.charAt(0));
         }
-
         return ret.toString();
     }
 
